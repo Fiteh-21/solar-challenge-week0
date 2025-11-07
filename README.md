@@ -9,12 +9,12 @@ A data science project for solar energy analysis
  cd solar-challenge-week0
  ### 2 Create and Activate Virtual Environment
  For Windows CMD:
- python -m venv venv
- venv\Scripts\activate
+ - python -m venv venv
+ - venv\Scripts\activate
  
  For macOS/Linux:
- python3 -m venv venv
- source venv/bin/activate
+ - python3 -m venv venv
+ - source venv/bin/activate
  ### 3 Install Dependencies
  pip install -r requirements.txt
  ### 4 Verify Python and Pip
@@ -24,23 +24,31 @@ A data science project for solar energy analysis
  ### 5 Run Tests (Optional)
  python -m unittest
  ## 📁Suggested Folder Structure
- -.vscode/
-    settings.json
- -.github/
-    workflows/
-        unittest.yml
- -.gitignore
--requirements.txt
- -README.md
- -src/
- -notebooks/
-    __init__.py
-    README.md
- -tests/
-    __init__.py
- -scripts/
-    __init__.py
-    README.md
+.vscode/
+   -  settings.json
+    
+.github/
+   -  workflows/
+       -  unittest.yml
+        
+ .gitignore
+ 
+requirements.txt
+
+README.md
+
+ src/
+ 
+ notebooks/
+   -  __init__.py
+   -  README.md
+    
+ tests/
+   -  __init__.py
+    
+ scripts/
+   -  __init__.py
+   -  README.md
  ## 🔁 Continuous Integration (CI)
  A basic GitHub Actions workflow file (`.github/workflows/ci.yml`) is included to
  automatically verify your environment setup. It runs the following commands:
