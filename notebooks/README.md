@@ -4,6 +4,41 @@
 
 This repository presents an exploratory and comparative analysis of solar resource potential across Benin, Sierra Leone, and Togo. The goal is to evaluate and compare key solar radiation metrics — GHI (Global Horizontal Irradiance), DNI (Direct Normal Irradiance), and DHI (Diffuse Horizontal Irradiance) — to identify relative strengths and variability between the three countries.
 
+📂 **Repository Structure**
+
+solar-resource-analysis/
+│
+├── data/                               # Contains raw and cleaned datasets
+│   ├── benin_clean.csv
+
+│   ├── sierraleone_clean.csv
+
+│   └── togo_clean.csv
+│
+├── notebooks/
+│   ├── eda_benin.ipynb  # EDA for Benin - data cleaning, trend visualization
+
+│   ├── sierraleone_eda.ipynb           # EDA for Sierra Leone - missing value checks
+
+│   ├── togo_eda.ipynb                  # EDA for Togo - distribution analysis
+
+│   └── compare_countries.ipynb         # Comparative analysis across all three countries
+│
+├── results/                            # Generated summary tables and plots
+│   ├── boxplot_GHI.png
+
+│   ├── boxplot_DNI.png
+
+│   ├── boxplot_DHI.png
+
+│   ├── ghi_ranking.png
+
+│   └── summary_statistics.csv
+│
+├── scripts/
+│   └── comparative_analysis.py         # Script version of comparative analysis
+│
+└── README.md
 
 ⚙️ **Analysis Summary**
 
