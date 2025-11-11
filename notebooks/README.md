@@ -8,6 +8,7 @@ This repository presents an exploratory and comparative analysis of solar resour
 
 solar-resource-analysis/
 │
+
 ├── data/                               # Contains raw and cleaned datasets
 
 │   ├── benin_clean.csv
@@ -26,6 +27,7 @@ solar-resource-analysis/
 
 │   └── compare_countries.ipynb         # Comparative analysis across all three countries
 │
+
 ├── results/                            # Generated summary tables and plots
 
 │   ├── boxplot_GHI.png
