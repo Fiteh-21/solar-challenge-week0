@@ -9,6 +9,7 @@ This repository presents an exploratory and comparative analysis of solar resour
 solar-resource-analysis/
 │
 ├── data/                               # Contains raw and cleaned datasets
+
 │   ├── benin_clean.csv
 
 │   ├── sierraleone_clean.csv
@@ -16,6 +17,7 @@ solar-resource-analysis/
 │   └── togo_clean.csv
 │
 ├── notebooks/
+
 │   ├── eda_benin.ipynb  # EDA for Benin - data cleaning, trend visualization
 
 │   ├── sierraleone_eda.ipynb           # EDA for Sierra Leone - missing value checks
@@ -25,6 +27,7 @@ solar-resource-analysis/
 │   └── compare_countries.ipynb         # Comparative analysis across all three countries
 │
 ├── results/                            # Generated summary tables and plots
+
 │   ├── boxplot_GHI.png
 
 │   ├── boxplot_DNI.png
@@ -36,6 +39,7 @@ solar-resource-analysis/
 │   └── summary_statistics.csv
 │
 ├── scripts/
+
 │   └── comparative_analysis.py         # Script version of comparative analysis
 │
 └── README.md
