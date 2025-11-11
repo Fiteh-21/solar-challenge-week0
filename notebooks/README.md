@@ -51,9 +51,13 @@ pip install -r requirements.txt
 3. Ensure cleaned datasets are placed under data/:
 
 data/
+
 ├── benin_clean.csv
+
 ├── sierraleone_clean.csv
+
 └── togo_clean.csv
+
 4. Run the analysis:
 
 Option A: Using Jupyter Notebooks
