@@ -2,7 +2,7 @@
 
 ## How to Run
 
-1. Create and activate your Python environment:
+## 1. Create and activate your Python environment:
   
    python -m venv venv
    
@@ -10,17 +10,17 @@
    
    pip install -r requirements.txt
 
-3. Install Streamlit if not in requirements:
+## 2. Install Streamlit if not in requirements:
 
 pip install streamlit pandas matplotlib seaborn
 
 
-3. Run the app:
+## 3. Run the app:
 
 streamlit run app/main.py
 
 
-4. Use the file uploader widget to upload your CSV files.
+## 4. Use the file uploader widget to upload your CSV files.
 
 Folder Structure
 
@@ -38,7 +38,7 @@ Work done on dashboard-dev branch.
 Single commit with message: "feat: basic Streamlit UI"
 
 
-## 4. Update `.gitignore`
+ 4. Update `.gitignore`
 
 Add:
 
