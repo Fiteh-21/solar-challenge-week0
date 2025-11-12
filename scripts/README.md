@@ -56,7 +56,7 @@ git commit -m "feat: basic Streamlit UI with file uploader, country filter, GHI 
 git push origin dashboard-dev
 
 
-6. Deployment (Optional, if you want)
+## 6. Deployment (Optional, if you want)
 
 Push code to GitHub.
 
@@ -67,7 +67,7 @@ Link your repo and branch dashboard-dev.
 Deploy and test your app.
 
 
-Summary
+## Summary
 
 Created dashboard-dev branch.
 
